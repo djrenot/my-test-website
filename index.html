@@ -10,5 +10,16 @@
 <body>
     <h1>djrenot's test</h1>
     <p>studying ui/ux design.</p>
+
+    <footer>
+        <div id="updated"></div>
+    </footer>
 </body>
+
+<script>
+    let updated = document.lastModified;
+    var footer_updated = document.getElementById('updated');
+    footer_updated.insertAdjacentHTML('afterbegin',updated);
+</script>
+
 </html>
