@@ -1,5 +1,22 @@
-h1{
-    font-size: 24px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #ddd;
+
+.container{
+  margin: 0 auto;
+  width: 800px;
+}
+
+.container>h1{
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+footer h1{
+  font-size: 0.9em;
+}
+
+footer h1,p{
+  display: inline-block;
 }
