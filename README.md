@@ -12,3 +12,4 @@ currently only having simple easy html + css + js
 ## References
 
 - [api](https://www.codegrid.net/articles/2018-web-api-1/)
+- [reset css](https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html)
