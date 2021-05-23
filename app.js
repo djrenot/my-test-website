@@ -10,4 +10,10 @@ const request = axios.create({
 // get user repos
 request.get('/users/djrenot/repos')
   .then(res => res.data)
-  .then(console.log)
+  .then(repos => {
+    console.log(repos);
+    for(let i=0;i<repos.length;i++){
+      // console.info('this is' + i)
+      console.log(repos[i].name)
+    }
+  })
