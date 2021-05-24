@@ -15,10 +15,8 @@ request.get('/users/djrenot/repos')
     // console.log(repos);
     console.log(list);
     for(let i=0;i<repos.length;i++){
-      // console.info('this is' + i)
       // console.log(repos[i].name)
       let list_item = document.createElement("LI");
-      // console.log(typeof(repos[i].name));
       list_item.innerHTML = repos[i].name;
       list.appendChild(list_item);
     }
