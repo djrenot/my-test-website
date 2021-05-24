@@ -2,6 +2,10 @@
   background: #a3f0d7;
 }
 
+h1, h2, h3 {
+  margin-top: 24px;
+}
+
 
 .container{
   margin: 0 auto;
