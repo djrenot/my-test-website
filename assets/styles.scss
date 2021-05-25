@@ -6,25 +6,21 @@ h1, h2, h3 {
   margin-top: 24px;
 }
 
-
 .container{
   margin: 0 auto;
   width: 800px;
-}
-
-.container>h1{
-  font-size: 24px;
-  padding-bottom: 8px;
+  >h1{
+    font-size: 24px;
+    padding-bottom: 8px;
+  }
 }
 
 footer{
   margin-top: 20px;
-}
-
-footer h1{
-  font-size: 0.9em;
-}
-
-footer h1, footer p{
-  display: inline-block;
+  h1{
+    font-size: 0.9em;
+  }
+  h1, p{
+    display: inline-block;
+  }
 }
