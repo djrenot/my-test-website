@@ -23,6 +23,15 @@ h1, h2, h3 {
   width: 800px;
 }
 
+ul.accounts{
+  padding-left: 0;
+  li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+  }
+}
+
 footer{
   background-color: black;
   color: #fff;
