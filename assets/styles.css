@@ -15,6 +15,7 @@ body {
 h1, h2, h3 {
   font-family: "Alata", sans-serif;
   margin-top: 24px;
+  font-size: 24px;
 }
 
 .container {
@@ -22,17 +23,16 @@ h1, h2, h3 {
   width: 800px;
 }
 
-.container > h1 {
-  font-size: 24px;
-  padding-bottom: 8px;
-}
-
 footer {
-  margin-top: 20px;
+  background-color: black;
+  color: #fff;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 footer h1 {
   font-size: 0.9em;
+  margin-top: 0;
 }
 
 footer h1, footer p {

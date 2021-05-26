@@ -15,21 +15,22 @@ body{
 h1, h2, h3 {
   font-family: $font-heading;
   margin-top: 24px;
+  font-size: 24px;
 }
 
 .container{
   margin: 0 auto;
   width: 800px;
-  >h1{
-    font-size: 24px;
-    padding-bottom: 8px;
-  }
 }
 
 footer{
-  margin-top: 20px;
+  background-color: black;
+  color: #fff;
+  margin-top: 50px;
+  padding: 20px;
   h1{
     font-size: 0.9em;
+    margin-top: 0;
   }
   h1, p{
     display: inline-block;
