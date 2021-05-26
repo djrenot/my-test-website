@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans+JP:wght@100;300;400&display=swap');
+
+$font-heading: 'Alata', sans-serif;
+$font-body: 'Noto Sans JP', sans-serif;
+
 ::selection {
   background: #a3f0d7;
 }
 
+body{
+  font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
+  font-weight: 300;
+}
+
 h1, h2, h3 {
+  font-family: $font-heading;
   margin-top: 24px;
 }
 
