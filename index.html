@@ -16,12 +16,13 @@
   <title>djrenot's test website</title>
   <link rel="stylesheet" href="assets/reset.min.css">
   <link rel="stylesheet" href="assets/styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://kit.fontawesome.com/2d9988e670.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container">
     <h1>djrenot's playground</h1>
-    <h2>about djrenot</h2>
+    <h2 id="menu-about">about djrenot</h2>
     <p>an ordinal otaku studying ui/ux design.</p>
     <p>日本語ネイティブ + use little English.</p>
     <ul class="accounts">
@@ -31,12 +32,23 @@
     </ul>
 
     <!-- show list of my github repositories -->
-    <h2>my repos</i></h2>
+    <h2 id="menu-repo">my repos</i></h2>
     <div>
       <ul id="list-repos"></ul>
     </div>
 
   
+  </div>
+  <div class="mobile-menu">
+    <span class="material-icons material-icons-two-tone">
+      home
+    </span>
+    <span class="material-icons material-icons-two-tone">
+      article
+    </span>
+    <span class="material-icons material-icons-two-tone">
+      account_circle
+    </span>
   </div>
   <footer>
     <div class="container">

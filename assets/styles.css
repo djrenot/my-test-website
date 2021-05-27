@@ -33,6 +33,16 @@ ul.accounts li {
   width: 15px;
 }
 
+.mobile-menu {
+  border-top: 1px solid #000;
+  height: 50px;
+  width: 100%;
+}
+
+.mobile-menu span {
+  line-height: 50px;
+}
+
 footer {
   background-color: black;
   color: #fff;
