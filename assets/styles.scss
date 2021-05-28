@@ -32,14 +32,20 @@ ul.accounts{
   }
 }
 
-.mobile-menu {
-  border-top: 1px solid #000;
-  height: 50px;
-  width: 100%;
-  span {
-    line-height: 50px;
+.spacer {
+  height: 500px;
+  background-color: pink;
+}
+
+.menu-nav {
+  display: flex;
+
+  span.menu-item {
+    width: calc( 100% / 4 );
+    text-align: center;
   }
 }
+
 
 footer{
   background-color: black;
@@ -52,5 +58,30 @@ footer{
   }
   h1, p{
     display: inline-block;
+  }
+}
+
+.mobile-menu {
+  display: block;
+  // border-top: 1px solid #000;
+  bottom: 0;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background-color: #808080;
+  color: #fff;
+  span {
+    line-height: 50px;
+  }
+}
+@media all and (min-width: 768px) {
+  .display-sp {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  footer {
+    margin-bottom: 60px;
   }
 }
