@@ -3,6 +3,10 @@
 $font-heading: 'Alata', sans-serif;
 $font-body: 'Noto Sans JP', sans-serif;
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::selection {
   background: #a3f0d7;
 }
