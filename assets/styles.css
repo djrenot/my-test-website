@@ -38,6 +38,41 @@ ul.accounts li {
   width: 15px;
 }
 
+.dummies {
+  height: 250px;
+}
+
+.spacer {
+  height: 500px;
+  background-color: pink;
+}
+
+.menu-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-nav span.menu-item {
+  width: calc( 100% / 4);
+  text-align: center;
+}
+
+.to-top {
+  display: block;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 2.2;
+  color: #fff;
+  background: #000;
+}
+
 footer {
   background-color: black;
   color: #fff;

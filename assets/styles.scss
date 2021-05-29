@@ -36,6 +36,40 @@ ul.accounts{
   }
 }
 
+.dummies {
+  height: 250px;
+}
+
+.spacer {
+  height: 500px;
+  background-color: pink;
+}
+
+.menu-nav {
+  display: flex;
+
+  span.menu-item {
+    width: calc( 100% / 4 );
+    text-align: center;
+  }
+}
+
+.to-top {
+  display: block;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 2.2;
+  color: #fff;
+  background: #000;
+}
+
+
 footer{
   background-color: black;
   color: #fff;
