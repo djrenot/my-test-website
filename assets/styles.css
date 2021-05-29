@@ -38,6 +38,10 @@ ul.accounts li {
   width: 15px;
 }
 
+.dummies {
+  height: 250px;
+}
+
 .spacer {
   height: 500px;
   background-color: pink;
