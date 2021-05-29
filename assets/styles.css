@@ -7,6 +7,11 @@
   background: #a3f0d7;
 }
 
+span a {
+  color: #fff;
+  text-decoration: none;
+}
+
 body {
   font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
   font-weight: 300;
@@ -77,6 +82,10 @@ footer h1, footer p {
 
 .mobile-menu span {
   line-height: 50px;
+}
+
+.mobile-menu span a {
+  display: block;
 }
 
 @media all and (min-width: 768px) {

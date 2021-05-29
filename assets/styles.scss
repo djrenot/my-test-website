@@ -7,6 +7,11 @@ $font-body: 'Noto Sans JP', sans-serif;
   background: #a3f0d7;
 }
 
+span a {
+  color: #fff;
+  text-decoration: none;
+}
+
 body{
   font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
   font-weight: 300;
@@ -72,6 +77,9 @@ footer{
   color: #fff;
   span {
     line-height: 50px;
+    a {
+      display: block;
+    }
   }
 }
 @media all and (min-width: 768px) {
