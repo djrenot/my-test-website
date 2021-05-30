@@ -21,3 +21,8 @@ request.get('/users/djrenot/repos')
       list.appendChild(list_item);
     }
   })
+
+  // scroll to top of the page
+function scroll_top() {
+  window.scrollTo(0, 0);
+};
