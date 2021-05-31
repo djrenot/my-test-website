@@ -12,6 +12,11 @@ html {
   background: #a3f0d7;
 }
 
+span a {
+  color: #fff;
+  text-decoration: none;
+}
+
 body {
   font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
   font-weight: 300;
@@ -87,5 +92,35 @@ footer h1 {
 
 footer h1, footer p {
   display: inline-block;
+}
+
+.mobile-menu {
+  display: block;
+  bottom: 0;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background-color: #808080;
+  color: #fff;
+}
+
+.mobile-menu span {
+  line-height: 50px;
+}
+
+.mobile-menu span a {
+  display: block;
+}
+
+@media all and (min-width: 768px) {
+  .display-sp {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  footer {
+    margin-bottom: 60px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
