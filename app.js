@@ -17,7 +17,13 @@ request.get('/users/djrenot/repos')
     }
   })
 
-  // scroll to top of the page
+// scroll to top of the page
 function scroll_top() {
   window.scrollTo(0, 0);
 };
+
+// Loader
+window.onload = function() {
+  const spinner = document.getElementById('loading_page');
+  spinner.classList.add('loading_done');
+}
