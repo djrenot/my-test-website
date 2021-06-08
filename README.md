@@ -15,3 +15,4 @@ currently only having simple easy html + css + js
 - [reset css](https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html)
 - [scrollTo](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo)
 - [cherry-pick multiple](https://qiita.com/growsic/items/c45f1daa7196e862aea6)
+- [js page loader](https://www.webcreatorbox.com/tech/loading-animation)
