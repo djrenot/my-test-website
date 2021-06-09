@@ -8,9 +8,13 @@ async function github_repo(){
   repo_num.innerHTML = repo_list.length;
 
   for(let i=0;i<repo_list.length;i++){
-    // console.log(repo_list[i].name)
     let list_item = document.createElement("LI");
     list_item.innerHTML = '<a href="' + repo_list[i].html_url + '" target=_blank>' + repo_list[i].name + '</a>' ;
+    if (repo_list[i].archived == true ) {
+      let list_item__archived = document.createElement("span");
+      list_item__archived.innerHTML = 'archived';
+      list_item.appendChild(list_item__archived);
+    } else {};
     list.appendChild(list_item);
   }
 }
