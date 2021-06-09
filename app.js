@@ -12,6 +12,7 @@ async function github_repo(){
     list_item.innerHTML = '<a href="' + repo_list[i].html_url + '" target=_blank>' + repo_list[i].name + '</a>' ;
     if (repo_list[i].archived == true ) {
       let list_item__archived = document.createElement("span");
+      list_item__archived.setAttribute('class','list-item--archived');
       list_item__archived.innerHTML = 'archived';
       list_item.appendChild(list_item__archived);
     } else {};

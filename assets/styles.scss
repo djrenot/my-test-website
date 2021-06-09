@@ -41,6 +41,19 @@ ul.accounts{
   }
 }
 
+ul#list-repos{
+  span.list-item--archived {
+    border: 1px solid #333;
+    background-color: #cfcfcf;
+    box-sizing: border-box;
+    font-size: 0.6em;
+    margin-left: 10px;
+    padding: 1px 2px;
+    line-height: 1em;
+    vertical-align: middle;
+  }
+}
+
 .dummies {
   height: 250px;
 }
