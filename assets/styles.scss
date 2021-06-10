@@ -11,7 +11,14 @@ html {
   background: #a3f0d7;
 }
 
-span a {
+main a {
+  color: #000;
+  &:hover, &:active {
+    background-color: #e8ff8c;
+  }
+}
+
+nav.menu-nav a {
   color: #fff;
   text-decoration: none;
 }
@@ -42,6 +49,9 @@ ul.accounts{
 }
 
 ul#list-repos{
+  li {
+    margin-bottom: 5px;
+  }
   span.list-item--archived {
     border: 1px solid #333;
     background-color: #cfcfcf;

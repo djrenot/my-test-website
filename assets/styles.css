@@ -12,7 +12,15 @@ html {
   background: #a3f0d7;
 }
 
-span a {
+main a {
+  color: #000;
+}
+
+main a:hover, main a:active {
+  background-color: #e8ff8c;
+}
+
+nav.menu-nav a {
   color: #fff;
   text-decoration: none;
 }
@@ -41,6 +49,10 @@ ul.accounts li {
   display: inline-block;
   margin: 0 5px;
   width: 15px;
+}
+
+ul#list-repos li {
+  margin-bottom: 5px;
 }
 
 ul#list-repos span.list-item--archived {
