@@ -71,11 +71,6 @@ ul#list-repos span.list-item--archived {
   height: 250px;
 }
 
-.spacer {
-  height: 500px;
-  background-color: pink;
-}
-
 .menu-nav {
   display: -webkit-box;
   display: -ms-flexbox;
