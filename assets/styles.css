@@ -67,6 +67,19 @@ ul#list-repos span.list-item--archived {
   vertical-align: middle;
 }
 
+.objective-list iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.objective-list iframe body.docs-gm {
+  background-color: #333;
+}
+
+.objective-list iframe body.docs-gm div#top-bar {
+  display: none;
+}
+
 .dummies {
   height: 250px;
 }
