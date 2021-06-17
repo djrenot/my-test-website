@@ -18,3 +18,4 @@ currently only having simple easy html + css + js
 - [using fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [async processing](https://jsprimer.net/basic/async/)
 - [delete merged branches](https://devconnected.com/how-to-clean-up-git-branches/)
+- [css limitation for cross-origin](https://qiita.com/T_sa/items/7d5285b420698ea8ca15)
