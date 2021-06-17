@@ -85,10 +85,6 @@ ul#list-repos span.list-item--archived {
   border-radius: 4px;
 }
 
-.dummies {
-  height: 250px;
-}
-
 .menu-nav {
   display: -webkit-box;
   display: -ms-flexbox;
