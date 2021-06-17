@@ -109,6 +109,7 @@ ul#list-repos span.list-item--archived {
   line-height: 2.2;
   color: #fff;
   background: #000;
+  border: 2px solid #fff;
 }
 
 footer {
