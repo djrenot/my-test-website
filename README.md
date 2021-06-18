@@ -19,3 +19,4 @@ currently only having simple easy html + css + js
 - [async processing](https://jsprimer.net/basic/async/)
 - [delete merged branches](https://devconnected.com/how-to-clean-up-git-branches/)
 - [css limitation for cross-origin](https://qiita.com/T_sa/items/7d5285b420698ea8ca15)
+- [js page loader](https://www.webcreatorbox.com/tech/loading-animation)
