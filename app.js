@@ -23,7 +23,10 @@ function scroll_top() {
 };
 
 // Loader
+// loading window
 window.onload = function() {
   const spinner = document.getElementById('loading_page');
   spinner.classList.add('loading_done');
+  console.info('window has been loaded!');
 }
+// TODO: add api loadder
