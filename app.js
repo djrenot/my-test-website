@@ -34,4 +34,10 @@ window.onload = function() {
   spinner.classList.add('loading_done');
   console.info('window has been loaded!');
 }
-// TODO: add api loadder
+
+function show_latest_update(){
+  let updated = document.lastModified;
+  var footer_updated = document.getElementById('updated');
+  footer_updated.insertAdjacentHTML('afterbegin',updated);
+}
+show_latest_update();
