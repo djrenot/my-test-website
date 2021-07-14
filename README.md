@@ -5,7 +5,7 @@ my test site to play with :{
 [github page](https://djrenot.github.io/my-test-website/)
 
 ## Content
-
+../
 currently only having simple easy html + css + js
 
 
@@ -20,3 +20,5 @@ currently only having simple easy html + css + js
 - [delete merged branches](https://devconnected.com/how-to-clean-up-git-branches/)
 - [css limitation for cross-origin](https://qiita.com/T_sa/items/7d5285b420698ea8ca15)
 - [js page loader](https://www.webcreatorbox.com/tech/loading-animation)
+- [rename branch](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
+- [nodejs twitter](https://qiita.com/kzthrk/items/84acb969dc0b23aeae58)
