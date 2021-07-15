@@ -1,4 +1,3 @@
 .DS_Store
-api.md
-node_test.js
+.env
 .vscode/*
