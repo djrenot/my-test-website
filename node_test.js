@@ -8,15 +8,9 @@ var client = new Twitter({
   access_token_secret: process.env.ACCESS_TOKEN_SECRET
 });
 
-client.get('search/tweets', {q: 'node.js'}, function(error, tweets, response) {
+client.get('statuses/user_timeline', {screen_name: 'djrenot',count: 1}, function(error, tweets, response) {
   console.log(tweets);
+  // show body text of the tweet (text)
+    // tier link to the original tweet on the text (https://twitter.com/[id_str])
+  // show the date tweeted (created_at)
 });
-
-// tweet
-// client.post('statuses/update', {status: 'I am a tweet'}, function(error, tweet, response) {
-//   if (!error) {
-//     console.log(tweet);
-//   } else {
-//     console.log(error)
-//   }
-// });
