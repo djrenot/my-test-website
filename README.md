@@ -23,3 +23,4 @@ currently only having simple easy html + css + js
 - [rename branch](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
 - [nodejs twitter](https://qiita.com/kzthrk/items/84acb969dc0b23aeae58)
 - [how to use env var with nodejs](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html-jp)
+- [working with objects](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Working_with_Objects)
