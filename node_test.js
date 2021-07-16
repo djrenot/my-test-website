@@ -9,8 +9,14 @@ var client = new Twitter({
 });
 
 client.get('statuses/user_timeline', {screen_name: 'djrenot',count: 1}, function(error, tweets, response) {
-  console.log(tweets);
+  // console.log(tweets);  
   // show body text of the tweet (text)
+  // let tweet_area = document.getElementById('tweet_area');
+  // tweet_area.innerHTML =
+  console.log(tweets[0].text);
+  
     // tier link to the original tweet on the text (https://twitter.com/[id_str])
+    console.log(tweets[0].id);
   // show the date tweeted (created_at)
+  console.log(tweets[0].created_at);
 });
