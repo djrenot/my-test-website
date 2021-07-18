@@ -27,3 +27,4 @@ currently only having simple easy html + css + js
 - [npm install error](https://qiita.com/okohs/items/ced3c3de30af1035242d)
   - [npm official](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
 - [browserify](codegrid.net/articles/2015-browserify-1/)
+- [browserify command not found](https://stackoverflow.com/questions/24947262/browserify-command-not-found)
