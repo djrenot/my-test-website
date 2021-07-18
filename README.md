@@ -24,3 +24,6 @@ currently only having simple easy html + css + js
 - [nodejs twitter](https://qiita.com/kzthrk/items/84acb969dc0b23aeae58)
 - [how to use env var with nodejs](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html-jp)
 - [working with objects](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Working_with_Objects)
+- [npm install error](https://qiita.com/okohs/items/ced3c3de30af1035242d)
+  - [npm official](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
+- [browserify](codegrid.net/articles/2015-browserify-1/)
